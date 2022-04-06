@@ -4,6 +4,7 @@
 #include "AutomationAPI_FeatureCollection.h"
 #include "AutomationAPI_RoutingCollection.h"
 #include "..\AppPartOps\Journaling_Part.h"
+#include "..\AppLibrary\Journaling_Part.h"
 
 using namespace AutomationAPI;
 
@@ -106,4 +107,14 @@ AutomationAPI::FeatureCollection* AutomationAPI::Part::Features()
 {
 	return m_partImpl->Features();
 }
+
+AutomationAPI::BlockBuilder* AutomationAPI::Part::CreateBlockBuilder(AutomationAPI::Block* block)
+{
+	Application::BlockBuilder* blockBuilder =
+		Journaling_Part_CreateBlockBuilder(nullptr, nullptr);
+
+	return nullptr;
+
+}
+
 

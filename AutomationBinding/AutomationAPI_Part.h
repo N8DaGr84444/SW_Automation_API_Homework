@@ -10,6 +10,8 @@ namespace AutomationAPI
 	class FeatureCollection;
 	class RoutingCollection;
 	class PartImpl;
+	class BlockBuilder;
+	class Block;
 	/// <summary>
 	/// Represents a part file in our sample CAD application.
 	/// </summary>
@@ -42,6 +44,9 @@ namespace AutomationAPI
 			* Internal Usage only.
 			*/
 			static Part* CreatePart(int guid);
+
+			BlockBuilder* CreateBlockBuilder(Block* block);
+
 
 			virtual ~Part();
 			Part() = delete;
