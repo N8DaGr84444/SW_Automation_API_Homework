@@ -101,6 +101,10 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="Journaling_BlockBuilder.h" />
     <ClInclude Include="Journaling_FeatureCollection.h" />
+    <ClInclude Include="Journaling_Part.h" />
+    <ClInclude Include="Journaling_PyramidBuilder.h" />
+    <ClInclude Include="Pyramid.h" />
+    <ClInclude Include="PyramidBuilder.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Block.cpp" />
@@ -111,6 +115,10 @@
     <ClCompile Include="Feature.cpp" />
     <ClCompile Include="Journaling_BlockBuilder.cpp" />
     <ClCompile Include="Journaling_FeatureCollection.cpp" />
+    <ClCompile Include="Journaling_Part.cpp" />
+    <ClCompile Include="Journaling_PyramidBuilder.cpp" />
+    <ClCompile Include="Pyramid.cpp" />
+    <ClCompile Include="PyramidBuilder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppsCore\AppsCore.vcxproj">

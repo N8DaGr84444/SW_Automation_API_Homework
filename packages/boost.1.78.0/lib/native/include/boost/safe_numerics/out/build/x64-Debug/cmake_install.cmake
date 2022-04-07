@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/ajdel/Dev/SoftArch/SW_Automation_API_Homework/packages/boost.1.78.0/lib/native/include/boost/safe_numerics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "C:/Users/ajdel/Dev/SoftArch/SW_Automation_API_Homework/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/install/x64-Debug")
+=======
+# Install script for directory: D:/SchoolStuff/ClassApplication/packages/boost.1.78.0/lib/native/include/boost/safe_numerics
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "D:/SchoolStuff/ClassApplication/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/install/x64-Debug")
+>>>>>>> main
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +42,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("C:/Users/ajdel/Dev/SoftArch/SW_Automation_API_Homework/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/concept/cmake_install.cmake")
+=======
+  include("D:/SchoolStuff/ClassApplication/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/concept/cmake_install.cmake")
+>>>>>>> main
 
 endif()
 
@@ -46,5 +58,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "C:/Users/ajdel/Dev/SoftArch/SW_Automation_API_Homework/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "D:/SchoolStuff/ClassApplication/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> main
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

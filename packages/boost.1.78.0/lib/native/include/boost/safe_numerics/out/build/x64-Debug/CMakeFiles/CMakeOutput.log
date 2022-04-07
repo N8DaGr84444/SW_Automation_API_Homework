@@ -21,7 +21,11 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
+<<<<<<< HEAD
 The C compiler identification is MSVC, found in "C:/Users/ajdel/Dev/SoftArch/SW_Automation_API_Homework/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+=======
+The C compiler identification is MSVC, found in "D:/SchoolStuff/ClassApplication/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+>>>>>>> main
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
@@ -45,6 +49,7 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
+<<<<<<< HEAD
 The CXX compiler identification is MSVC, found in "C:/Users/ajdel/Dev/SoftArch/SW_Automation_API_Homework/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Detecting C compiler ABI info compiled with the following output:
@@ -52,14 +57,30 @@ Change Dir: C:/Users/ajdel/Dev/SoftArch/SW_Automation_API_Homework/packages/boos
 
 Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_fafa5 && [1/2] Building C object CMakeFiles\cmTC_fafa5.dir\CMakeCCompilerABI.c.obj
 [2/2] Linking C executable cmTC_fafa5.exe
+=======
+The CXX compiler identification is MSVC, found in "D:/SchoolStuff/ClassApplication/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/SchoolStuff/ClassApplication/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_11034 && [1/2] Building C object CMakeFiles\cmTC_11034.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_11034.exe
+>>>>>>> main
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
+<<<<<<< HEAD
 Change Dir: C:/Users/ajdel/Dev/SoftArch/SW_Automation_API_Homework/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_74bfc && [1/2] Building CXX object CMakeFiles\cmTC_74bfc.dir\CMakeCXXCompilerABI.cpp.obj
 [2/2] Linking CXX executable cmTC_74bfc.exe
+=======
+Change Dir: D:/SchoolStuff/ClassApplication/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9111c && [1/2] Building CXX object CMakeFiles\cmTC_9111c.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_9111c.exe
+>>>>>>> main
 
 
 
