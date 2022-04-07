@@ -45,7 +45,11 @@ build safe_numerics: phony
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+<<<<<<< HEAD
+  COMMAND = cmd.exe /C "cd /D C:\Users\ajdel\Dev\SoftArch\SW_Automation_API_Homework\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+=======
   COMMAND = cmd.exe /C "cd /D D:\SchoolStuff\ClassApplication\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+>>>>>>> main
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +60,11 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+<<<<<<< HEAD
+  COMMAND = cmd.exe /C "cd /D C:\Users\ajdel\Dev\SoftArch\SW_Automation_API_Homework\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ajdel\Dev\SoftArch\SW_Automation_API_Homework\packages\boost.1.78.0\lib\native\include\boost\safe_numerics -BC:\Users\ajdel\Dev\SoftArch\SW_Automation_API_Homework\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug"
+=======
   COMMAND = cmd.exe /C "cd /D D:\SchoolStuff\ClassApplication\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SD:\SchoolStuff\ClassApplication\packages\boost.1.78.0\lib\native\include\boost\safe_numerics -BD:\SchoolStuff\ClassApplication\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug"
+>>>>>>> main
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -65,7 +73,11 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
+<<<<<<< HEAD
+# C:/Users/ajdel/Dev/SoftArch/SW_Automation_API_Homework/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/CMakeLists.txt
+=======
 # D:/SchoolStuff/ClassApplication/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/CMakeLists.txt
+>>>>>>> main
 # =============================================================================
 
 
@@ -79,7 +91,11 @@ build concept\concept: phony
 # Utility command for edit_cache
 
 build concept\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+<<<<<<< HEAD
+  COMMAND = cmd.exe /C "cd /D C:\Users\ajdel\Dev\SoftArch\SW_Automation_API_Homework\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug\concept && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+=======
   COMMAND = cmd.exe /C "cd /D D:\SchoolStuff\ClassApplication\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug\concept && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+>>>>>>> main
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -90,7 +106,11 @@ build concept\edit_cache: phony concept\CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build concept\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+<<<<<<< HEAD
+  COMMAND = cmd.exe /C "cd /D C:\Users\ajdel\Dev\SoftArch\SW_Automation_API_Homework\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug\concept && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\ajdel\Dev\SoftArch\SW_Automation_API_Homework\packages\boost.1.78.0\lib\native\include\boost\safe_numerics -BC:\Users\ajdel\Dev\SoftArch\SW_Automation_API_Homework\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug"
+=======
   COMMAND = cmd.exe /C "cd /D D:\SchoolStuff\ClassApplication\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug\concept && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SD:\SchoolStuff\ClassApplication\packages\boost.1.78.0\lib\native\include\boost\safe_numerics -BD:\SchoolStuff\ClassApplication\packages\boost.1.78.0\lib\native\include\boost\safe_numerics\out\build\x64-Debug"
+>>>>>>> main
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -108,14 +128,22 @@ build concept: phony concept\concept
 # =============================================================================
 
 #############################################
+<<<<<<< HEAD
+# Folder: C:/Users/ajdel/Dev/SoftArch/SW_Automation_API_Homework/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug
+=======
 # Folder: D:/SchoolStuff/ClassApplication/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug
+>>>>>>> main
 
 build all: phony concept\all
 
 # =============================================================================
 
 #############################################
+<<<<<<< HEAD
+# Folder: C:/Users/ajdel/Dev/SoftArch/SW_Automation_API_Homework/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/concept
+=======
 # Folder: D:/SchoolStuff/ClassApplication/packages/boost.1.78.0/lib/native/include/boost/safe_numerics/out/build/x64-Debug/concept
+>>>>>>> main
 
 build concept\all: phony
 

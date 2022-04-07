@@ -109,11 +109,11 @@ AutomationAPI::FeatureCollection* AutomationAPI::Part::Features()
 }
 
 AutomationAPI::PyramidBuilder* AutomationAPI::Part::CreatePyramidBuilder(AutomationAPI::Pyramid* pyramid)
-{	
+{
 	// Mode 1 to create a pyramid (input part and pyramid)
 	Application::PyramidBuilder* pyramidBuilder =
 		Journaling_Part_CreatePyramidBuilder(nullptr, nullptr);
-	
+
 	// Mode 2 to create a pyramid (input part only)
 	Application::PyramidBuilder* pyramidBuilder2 =
 		Journaling_Part_CreatePyramidBuilderPartOnly(nullptr);

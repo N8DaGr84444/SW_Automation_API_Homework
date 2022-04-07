@@ -1,0 +1,56 @@
+\hypertarget{_automation_a_p_i___part_8h_source}{}\doxysection{Automation\+API\+\_\+\+Part.\+h}
+\mbox{\hyperlink{_automation_a_p_i___part_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_automation_binding_exports_8h}{AutomationBindingExports.h}}"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_automation_a_p_i}{AutomationAPI}}}
+\DoxyCodeLine{8 \{}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10     \textcolor{keyword}{class }FeatureCollection;}
+\DoxyCodeLine{11     \textcolor{keyword}{class }RoutingCollection;}
+\DoxyCodeLine{12     \textcolor{keyword}{class }PartImpl;}
+\DoxyCodeLine{13     \textcolor{keyword}{class }PyramidBuilder;}
+\DoxyCodeLine{14     \textcolor{keyword}{class }Pyramid;}
+\DoxyCodeLine{19     \textcolor{keyword}{class }\mbox{\hyperlink{_automation_binding_exports_8h_a4b4ededcfdb4880bbe5170af32649741}{AUTOMATIONBINDING\_API}} \mbox{\hyperlink{class_automation_a_p_i_1_1_part}{Part}}}
+\DoxyCodeLine{20     \{}
+\DoxyCodeLine{21         public :}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{26             \textcolor{keywordtype}{void} Save();}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{31             \textcolor{keywordtype}{void} MakeWidgetFeature(\textcolor{keywordtype}{bool} option1, \textcolor{keywordtype}{int} values);}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{36             \mbox{\hyperlink{class_automation_a_p_i_1_1_feature_collection}{FeatureCollection}}* Features();}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38 }
+\DoxyCodeLine{42             \mbox{\hyperlink{class_automation_a_p_i_1_1_routing_collection}{RoutingCollection}}* Routing();}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{48             \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder}{BlockBuilder}}* \mbox{\hyperlink{class_automation_a_p_i_1_1_part_a1ad70e4c0c76006c75d3a889c87a966f}{CreateBlockBuilder}}(\mbox{\hyperlink{class_automation_a_p_i_1_1_block}{Block}}* block);}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50             \textcolor{comment}{/*}}
+\DoxyCodeLine{51 \textcolor{comment}{            * Internal Usage only.}}
+\DoxyCodeLine{52 \textcolor{comment}{            */}}
+\DoxyCodeLine{53             \textcolor{keyword}{static} \mbox{\hyperlink{class_automation_a_p_i_1_1_part}{Part}}* CreatePart(\textcolor{keywordtype}{int} guid);}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55             \textcolor{comment}{/*}}
+\DoxyCodeLine{56 \textcolor{comment}{            * creates a Pyramid builder}}
+\DoxyCodeLine{57 \textcolor{comment}{            * @param pyramid}}
+\DoxyCodeLine{58 \textcolor{comment}{            */}}
+\DoxyCodeLine{59             \mbox{\hyperlink{class_automation_a_p_i_1_1_pyramid_builder}{PyramidBuilder}}* CreatePyramidBuilder(Pyramid* pyramid);}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61             \textcolor{keyword}{virtual} \mbox{\hyperlink{class_automation_a_p_i_1_1_part}{\string~Part}}();}
+\DoxyCodeLine{62             \mbox{\hyperlink{class_automation_a_p_i_1_1_part_ab730e5303e704b803e2d5205d8dbb43b}{Part}}() = \textcolor{keyword}{delete};}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64         \textcolor{keyword}{private}:}
+\DoxyCodeLine{65             }
+\DoxyCodeLine{66             \mbox{\hyperlink{class_automation_a_p_i_1_1_part}{Part}}(\textcolor{keywordtype}{int} guid);}
+\DoxyCodeLine{67             \mbox{\hyperlink{class_automation_a_p_i_1_1_part_impl}{PartImpl}} *m\_partImpl;}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69     \};}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71 \}}
+
+\end{DoxyCode}

@@ -1,0 +1,39 @@
+\hypertarget{_block_builder_8h_source}{}\doxysection{Block\+Builder.\+h}
+\label{_block_builder_8h_source}\index{AppLibrary/BlockBuilder.h@{AppLibrary/BlockBuilder.h}}
+\mbox{\hyperlink{_block_builder_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_app_features_ops_exports_8h}{AppFeaturesOpsExports.h}}"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}..\(\backslash\)Core\(\backslash\)GuidObject.h"{}}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{comment}{// TODO these probably shoudl be in their own file, }}
+\DoxyCodeLine{6 \textcolor{comment}{// but deferring this to when get a generator to handle this for us}}
+\DoxyCodeLine{7 \textcolor{keyword}{enum} \mbox{\hyperlink{_block_builder_8h_aef42113dc16076f4bfffbbaa68ddee21}{JournalBlockBuilderTypes}}}
+\DoxyCodeLine{8 \{}
+\DoxyCodeLine{9     \mbox{\hyperlink{_block_builder_8h_aef42113dc16076f4bfffbbaa68ddee21a5b462510c41c96f1e9c2efe63296d5f2}{JournalTypesOriginAndEdgeLengths}}, }
+\DoxyCodeLine{10     \mbox{\hyperlink{_block_builder_8h_aef42113dc16076f4bfffbbaa68ddee21a14507dd962d50bed5169f9c61d1fcf86}{JournalTypesTwoPointsAndHeight}}, }
+\DoxyCodeLine{11     \mbox{\hyperlink{_block_builder_8h_aef42113dc16076f4bfffbbaa68ddee21a0928e629524163b0310aa7f5780a4430}{JournalTypesDiagonalPoints}} }
+\DoxyCodeLine{12 \};}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_application}{Application}}}
+\DoxyCodeLine{15 \{}
+\DoxyCodeLine{16     \textcolor{keyword}{class }Block;}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{keyword}{class }\mbox{\hyperlink{_app_features_ops_exports_8h_aeb5e7a4ee478d82961c915a2fe683a33}{APPLIBRARY\_API}} \mbox{\hyperlink{class_application_1_1_block_builder}{BlockBuilder}} : \textcolor{keyword}{public} GuidObject}
+\DoxyCodeLine{19     \{}
+\DoxyCodeLine{20         \textcolor{keyword}{public}:}
+\DoxyCodeLine{21             \mbox{\hyperlink{class_application_1_1_block_builder_a652795aff3442a504a5fbbda09cbcd3a}{BlockBuilder}}() = \textcolor{keyword}{delete};}
+\DoxyCodeLine{22             \mbox{\hyperlink{class_application_1_1_block_builder}{BlockBuilder}}(\mbox{\hyperlink{class_application_1_1_block}{Application::Block}}* block, \textcolor{keywordtype}{int} guid);}
+\DoxyCodeLine{23             \mbox{\hyperlink{_block_builder_8h_aef42113dc16076f4bfffbbaa68ddee21}{JournalBlockBuilderTypes}} GetType();}
+\DoxyCodeLine{24             \textcolor{keywordtype}{void} SetType(\mbox{\hyperlink{_block_builder_8h_aef42113dc16076f4bfffbbaa68ddee21}{JournalBlockBuilderTypes}} type);}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26         \textcolor{keyword}{private}:}
+\DoxyCodeLine{27             \mbox{\hyperlink{class_application_1_1_block}{Block}}* m\_block;}
+\DoxyCodeLine{28             \mbox{\hyperlink{_block_builder_8h_aef42113dc16076f4bfffbbaa68ddee21}{JournalBlockBuilderTypes}} m\_journalBlockBuilderTypes;}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30     \};}
+\DoxyCodeLine{31 \}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 }
+
+\end{DoxyCode}

@@ -1,0 +1,100 @@
+\hypertarget{_extrude_8cpp}{}\doxysection{App\+Library/\+Extrude.cpp File Reference}
+\label{_extrude_8cpp}\index{AppLibrary/Extrude.cpp@{AppLibrary/Extrude.cpp}}
+{\ttfamily \#include \char`\"{}Extrude.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Extrude\+Versions.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}\+Core\textbackslash{}\+String\+Utils.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}\+Data\+Reader\textbackslash{}\+Data\+Object\+Reader.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}\+Data\+Reader\textbackslash{}\textbackslash{}\+Data\+Reader\+Registrant.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Guid\+Object $\ast$ \mbox{\hyperlink{_extrude_8cpp_a2e379a07f99e166f1a3308845904f9ce}{Read\+Extrude\+Version2}} (std\+::ifstream \&stream\+Object)
+\item 
+Guid\+Object $\ast$ \mbox{\hyperlink{_extrude_8cpp_afee6734ccb86056204f0575cbce60d42}{Read\+Extrude\+Version3}} (std\+::ifstream \&stream\+Object)
+\item 
+\mbox{\hyperlink{class_application_1_1_extrude}{Application\+::\+Extrude}} $\ast$ \mbox{\hyperlink{_extrude_8cpp_a4f7a05809eeaafec5676f19353f186a0}{Version\+Up\+Extrude\+Version2}} (\mbox{\hyperlink{class_application_1_1_extrude2}{Application\+::\+Extrude2}} $\ast$old\+Feature)
+\item 
+void \mbox{\hyperlink{_extrude_8cpp_afcbf6e2f759c850d40e8c2399b96342e}{Read\+In\+Extrude}} (std\+::ifstream \&stream\+Object)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{_extrude_8cpp_afc644e21059da2f363a79b5e788d924e}{Extrude\+\_\+\+Version\+Token}} = \char`\"{}Extrude\+\_\+\+Version\+:\char`\"{}
+\item 
+std\+::string \mbox{\hyperlink{_extrude_8cpp_a22bc9b9765fa350155c2e236f9260830}{Extrude\+\_\+\+Distance\+Token}} = \char`\"{}Extrude\+\_\+\+Distance\+:\char`\"{}
+\item 
+std\+::string \mbox{\hyperlink{_extrude_8cpp_ae345e6607be3c16a4567214dfd3cb70b}{Extrude\+\_\+\+Target\+Face\+Token}} = \char`\"{}Extrude\+\_\+\+Target\+Face\+:\char`\"{}
+\item 
+std\+::string \mbox{\hyperlink{_extrude_8cpp_a9c2d6245040bdc84c44f0f706375f904}{Extrude\+\_\+\+Vector\+Token}} = \char`\"{}Extrude\+\_\+\+Vector\+:\char`\"{}
+\item 
+std\+::string \mbox{\hyperlink{_extrude_8cpp_ac20b7164418592eaa62e9acf44761c6a}{Extrude\+\_\+\+Boolean\+Token}} = \char`\"{}Extrude\+\_\+\+Boolean\+:\char`\"{}
+\item 
+std\+::string \mbox{\hyperlink{_extrude_8cpp_a7dd5d60c1e0c5949611ac8fea2ab009d}{Extrude\+\_\+\+Guid\+Token}} = \char`\"{}Extrude\+\_\+\+Guid\+:\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_extrude_8cpp_a2e379a07f99e166f1a3308845904f9ce}\label{_extrude_8cpp_a2e379a07f99e166f1a3308845904f9ce}} 
+\index{Extrude.cpp@{Extrude.cpp}!ReadExtrudeVersion2@{ReadExtrudeVersion2}}
+\index{ReadExtrudeVersion2@{ReadExtrudeVersion2}!Extrude.cpp@{Extrude.cpp}}
+\doxysubsubsection{\texorpdfstring{ReadExtrudeVersion2()}{ReadExtrudeVersion2()}}
+{\footnotesize\ttfamily Guid\+Object $\ast$ Read\+Extrude\+Version2 (\begin{DoxyParamCaption}\item[{std\+::ifstream \&}]{stream\+Object }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_extrude_8cpp_afee6734ccb86056204f0575cbce60d42}\label{_extrude_8cpp_afee6734ccb86056204f0575cbce60d42}} 
+\index{Extrude.cpp@{Extrude.cpp}!ReadExtrudeVersion3@{ReadExtrudeVersion3}}
+\index{ReadExtrudeVersion3@{ReadExtrudeVersion3}!Extrude.cpp@{Extrude.cpp}}
+\doxysubsubsection{\texorpdfstring{ReadExtrudeVersion3()}{ReadExtrudeVersion3()}}
+{\footnotesize\ttfamily Guid\+Object $\ast$ Read\+Extrude\+Version3 (\begin{DoxyParamCaption}\item[{std\+::ifstream \&}]{stream\+Object }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_extrude_8cpp_afcbf6e2f759c850d40e8c2399b96342e}\label{_extrude_8cpp_afcbf6e2f759c850d40e8c2399b96342e}} 
+\index{Extrude.cpp@{Extrude.cpp}!ReadInExtrude@{ReadInExtrude}}
+\index{ReadInExtrude@{ReadInExtrude}!Extrude.cpp@{Extrude.cpp}}
+\doxysubsubsection{\texorpdfstring{ReadInExtrude()}{ReadInExtrude()}}
+{\footnotesize\ttfamily void Read\+In\+Extrude (\begin{DoxyParamCaption}\item[{std\+::ifstream \&}]{stream\+Object }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_extrude_8cpp_a4f7a05809eeaafec5676f19353f186a0}\label{_extrude_8cpp_a4f7a05809eeaafec5676f19353f186a0}} 
+\index{Extrude.cpp@{Extrude.cpp}!VersionUpExtrudeVersion2@{VersionUpExtrudeVersion2}}
+\index{VersionUpExtrudeVersion2@{VersionUpExtrudeVersion2}!Extrude.cpp@{Extrude.cpp}}
+\doxysubsubsection{\texorpdfstring{VersionUpExtrudeVersion2()}{VersionUpExtrudeVersion2()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_application_1_1_extrude}{Application\+::\+Extrude}} $\ast$ Version\+Up\+Extrude\+Version2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_application_1_1_extrude2}{Application\+::\+Extrude2}} $\ast$}]{old\+Feature }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{_extrude_8cpp_ac20b7164418592eaa62e9acf44761c6a}\label{_extrude_8cpp_ac20b7164418592eaa62e9acf44761c6a}} 
+\index{Extrude.cpp@{Extrude.cpp}!Extrude\_BooleanToken@{Extrude\_BooleanToken}}
+\index{Extrude\_BooleanToken@{Extrude\_BooleanToken}!Extrude.cpp@{Extrude.cpp}}
+\doxysubsubsection{\texorpdfstring{Extrude\_BooleanToken}{Extrude\_BooleanToken}}
+{\footnotesize\ttfamily std\+::string Extrude\+\_\+\+Boolean\+Token = \char`\"{}Extrude\+\_\+\+Boolean\+:\char`\"{}}
+
+\mbox{\Hypertarget{_extrude_8cpp_a22bc9b9765fa350155c2e236f9260830}\label{_extrude_8cpp_a22bc9b9765fa350155c2e236f9260830}} 
+\index{Extrude.cpp@{Extrude.cpp}!Extrude\_DistanceToken@{Extrude\_DistanceToken}}
+\index{Extrude\_DistanceToken@{Extrude\_DistanceToken}!Extrude.cpp@{Extrude.cpp}}
+\doxysubsubsection{\texorpdfstring{Extrude\_DistanceToken}{Extrude\_DistanceToken}}
+{\footnotesize\ttfamily std\+::string Extrude\+\_\+\+Distance\+Token = \char`\"{}Extrude\+\_\+\+Distance\+:\char`\"{}}
+
+\mbox{\Hypertarget{_extrude_8cpp_a7dd5d60c1e0c5949611ac8fea2ab009d}\label{_extrude_8cpp_a7dd5d60c1e0c5949611ac8fea2ab009d}} 
+\index{Extrude.cpp@{Extrude.cpp}!Extrude\_GuidToken@{Extrude\_GuidToken}}
+\index{Extrude\_GuidToken@{Extrude\_GuidToken}!Extrude.cpp@{Extrude.cpp}}
+\doxysubsubsection{\texorpdfstring{Extrude\_GuidToken}{Extrude\_GuidToken}}
+{\footnotesize\ttfamily std\+::string Extrude\+\_\+\+Guid\+Token = \char`\"{}Extrude\+\_\+\+Guid\+:\char`\"{}}
+
+\mbox{\Hypertarget{_extrude_8cpp_ae345e6607be3c16a4567214dfd3cb70b}\label{_extrude_8cpp_ae345e6607be3c16a4567214dfd3cb70b}} 
+\index{Extrude.cpp@{Extrude.cpp}!Extrude\_TargetFaceToken@{Extrude\_TargetFaceToken}}
+\index{Extrude\_TargetFaceToken@{Extrude\_TargetFaceToken}!Extrude.cpp@{Extrude.cpp}}
+\doxysubsubsection{\texorpdfstring{Extrude\_TargetFaceToken}{Extrude\_TargetFaceToken}}
+{\footnotesize\ttfamily std\+::string Extrude\+\_\+\+Target\+Face\+Token = \char`\"{}Extrude\+\_\+\+Target\+Face\+:\char`\"{}}
+
+\mbox{\Hypertarget{_extrude_8cpp_a9c2d6245040bdc84c44f0f706375f904}\label{_extrude_8cpp_a9c2d6245040bdc84c44f0f706375f904}} 
+\index{Extrude.cpp@{Extrude.cpp}!Extrude\_VectorToken@{Extrude\_VectorToken}}
+\index{Extrude\_VectorToken@{Extrude\_VectorToken}!Extrude.cpp@{Extrude.cpp}}
+\doxysubsubsection{\texorpdfstring{Extrude\_VectorToken}{Extrude\_VectorToken}}
+{\footnotesize\ttfamily std\+::string Extrude\+\_\+\+Vector\+Token = \char`\"{}Extrude\+\_\+\+Vector\+:\char`\"{}}
+
+\mbox{\Hypertarget{_extrude_8cpp_afc644e21059da2f363a79b5e788d924e}\label{_extrude_8cpp_afc644e21059da2f363a79b5e788d924e}} 
+\index{Extrude.cpp@{Extrude.cpp}!Extrude\_VersionToken@{Extrude\_VersionToken}}
+\index{Extrude\_VersionToken@{Extrude\_VersionToken}!Extrude.cpp@{Extrude.cpp}}
+\doxysubsubsection{\texorpdfstring{Extrude\_VersionToken}{Extrude\_VersionToken}}
+{\footnotesize\ttfamily std\+::string Extrude\+\_\+\+Version\+Token = \char`\"{}Extrude\+\_\+\+Version\+:\char`\"{}}
+

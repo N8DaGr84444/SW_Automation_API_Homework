@@ -1,0 +1,73 @@
+\hypertarget{_extrude_8h_source}{}\doxysection{Extrude.\+h}
+\label{_extrude_8h_source}\index{AppLibrary/Extrude.h@{AppLibrary/Extrude.h}}
+\mbox{\hyperlink{_extrude_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_app_features_ops_exports_8h}{AppFeaturesOpsExports.h}}"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_feature_8h}{Feature.h}}"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <fstream>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}..\(\backslash\)Core\(\backslash\)GuidObject.h"{}}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keywordtype}{void} \mbox{\hyperlink{_extrude_8h_afcbf6e2f759c850d40e8c2399b96342e}{ReadInExtrude}}(std::ifstream\& streamObject);}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_application}{Application}}}
+\DoxyCodeLine{11 \{}
+\DoxyCodeLine{12     \textcolor{keyword}{class }\mbox{\hyperlink{_app_features_ops_exports_8h_aeb5e7a4ee478d82961c915a2fe683a33}{APPLIBRARY\_API}} \mbox{\hyperlink{class_application_1_1_i_extrude}{IExtrude}} : \textcolor{keyword}{public} GuidObject}
+\DoxyCodeLine{13     \{}
+\DoxyCodeLine{14     \textcolor{keyword}{public}:}
+\DoxyCodeLine{15         \textcolor{keyword}{virtual} std::string \mbox{\hyperlink{class_application_1_1_i_extrude_a3cc29a159fa11320f8930012273701de}{GetVersion}}() = 0;}
+\DoxyCodeLine{16         \mbox{\hyperlink{class_application_1_1_i_extrude_ac8fc7937003045527a141221490103a2}{IExtrude}}(\textcolor{keywordtype}{int} guid) : GuidObject(guid)}
+\DoxyCodeLine{17         \{}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19         \}}
+\DoxyCodeLine{20     \};}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23     \textcolor{keyword}{class }\mbox{\hyperlink{_app_features_ops_exports_8h_aeb5e7a4ee478d82961c915a2fe683a33}{APPLIBRARY\_API}} \mbox{\hyperlink{class_application_1_1_extrude}{Extrude}} : \textcolor{keyword}{public} \mbox{\hyperlink{class_application_1_1_feature}{Application::Feature}}, \textcolor{keyword}{public} \mbox{\hyperlink{class_application_1_1_i_extrude}{IExtrude}}}
+\DoxyCodeLine{24     \{}
+\DoxyCodeLine{25     \textcolor{keyword}{public}:}
+\DoxyCodeLine{26         \mbox{\hyperlink{class_application_1_1_extrude_a05f5ebe46002e75bc3aed4e232803458}{Extrude}}() = \textcolor{keyword}{delete};}
+\DoxyCodeLine{27         \mbox{\hyperlink{class_application_1_1_extrude}{Extrude}}(std::string distance, std::string targetFace, std::string vectorObject, std::string isAddition, std::string isSubtraction, \textcolor{keywordtype}{int} m\_guid);}
+\DoxyCodeLine{28         std::string GetVersion() \textcolor{keyword}{override};}
+\DoxyCodeLine{29         \textcolor{keyword}{virtual} \mbox{\hyperlink{class_application_1_1_extrude_a558bba2c08c0181c1d9b17828a79ff95}{\string~Extrude}}()}
+\DoxyCodeLine{30         \{}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32         \}}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34         \textcolor{keyword}{const} std::string\& \mbox{\hyperlink{class_application_1_1_extrude_ac986ce1dc73dfd7a303cd7138feb27a3}{GetDistance}}()}
+\DoxyCodeLine{35         \{}
+\DoxyCodeLine{36             \textcolor{keywordflow}{return} m\_distance;}
+\DoxyCodeLine{37         \};}
+\DoxyCodeLine{38         \textcolor{keyword}{const} std::string\& \mbox{\hyperlink{class_application_1_1_extrude_a3cd99f25cec07a41d991ff8141de0318}{GetTargetFace}}()}
+\DoxyCodeLine{39         \{}
+\DoxyCodeLine{40             \textcolor{keywordflow}{return} m\_targetFace;}
+\DoxyCodeLine{41         \};}
+\DoxyCodeLine{42         \textcolor{keyword}{const} std::string\& \mbox{\hyperlink{class_application_1_1_extrude_abc0a7338fcb184a59ba595bb46f35f57}{GetVectorObject}}()}
+\DoxyCodeLine{43         \{}
+\DoxyCodeLine{44             \textcolor{keywordflow}{return} m\_vectorObject;}
+\DoxyCodeLine{45         \};}
+\DoxyCodeLine{46         \textcolor{keyword}{const} std::string\& \mbox{\hyperlink{class_application_1_1_extrude_ad1840e3007838b3f361776202103b4b3}{GetIsAddition}}()}
+\DoxyCodeLine{47         \{}
+\DoxyCodeLine{48             \textcolor{keywordflow}{return} m\_isAddition;}
+\DoxyCodeLine{49         \};}
+\DoxyCodeLine{50         \textcolor{keyword}{const} std::string\& \mbox{\hyperlink{class_application_1_1_extrude_a77193583f565a6afa724badf5090d0a0}{GetIsSubtraction}}()}
+\DoxyCodeLine{51         \{}
+\DoxyCodeLine{52             \textcolor{keywordflow}{return} m\_isSubtraction;}
+\DoxyCodeLine{53         \};}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55     \textcolor{keyword}{private}:}
+\DoxyCodeLine{56         std::string m\_distance;}
+\DoxyCodeLine{57         std::string m\_targetFace;}
+\DoxyCodeLine{58         std::string m\_vectorObject;}
+\DoxyCodeLine{59         std::string m\_isAddition;}
+\DoxyCodeLine{60         std::string m\_isSubtraction;}
+\DoxyCodeLine{61     \};}
+\DoxyCodeLine{62 \}}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67 }
+
+\end{DoxyCode}

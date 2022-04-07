@@ -1,0 +1,45 @@
+\hypertarget{_block_8h_source}{}\doxysection{Block.\+h}
+\label{_block_8h_source}\index{AppLibrary/Block.h@{AppLibrary/Block.h}}
+\mbox{\hyperlink{_block_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_app_features_ops_exports_8h}{AppFeaturesOpsExports.h}}"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_feature_8h}{Feature.h}}"{}}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <fstream>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}..\(\backslash\)Core\(\backslash\)GuidObject.h"{}}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keywordtype}{void} \mbox{\hyperlink{_block_8h_aa195299b01c7bbc3bf4b7c1dcd9d788f}{ProcessBlock}}(std::ifstream\& streamObject);}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_application}{Application}}}
+\DoxyCodeLine{12 \{}
+\DoxyCodeLine{13     \textcolor{keyword}{class }\mbox{\hyperlink{_app_features_ops_exports_8h_aeb5e7a4ee478d82961c915a2fe683a33}{APPLIBRARY\_API}} \mbox{\hyperlink{class_application_1_1_i_block}{IBlock}} : \textcolor{keyword}{public} GuidObject}
+\DoxyCodeLine{14     \{}
+\DoxyCodeLine{15     \textcolor{keyword}{public}:}
+\DoxyCodeLine{16         \textcolor{keyword}{virtual} std::string \mbox{\hyperlink{class_application_1_1_i_block_ae0e3896765db8ddf8de2abb393eebb29}{GetVersion}}() = 0;}
+\DoxyCodeLine{17         \mbox{\hyperlink{class_application_1_1_i_block_a11d35ef98fbb7671af94a225f60eccd0}{IBlock}}(\textcolor{keywordtype}{int} guid) : GuidObject(guid)}
+\DoxyCodeLine{18         \{}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20         \}}
+\DoxyCodeLine{21         \mbox{\hyperlink{class_application_1_1_i_block_a7a2b8493b032059ecc64eed0fd990af4}{IBlock}}() = \textcolor{keyword}{delete};}
+\DoxyCodeLine{22     \};}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25     \textcolor{keyword}{class }\mbox{\hyperlink{_app_features_ops_exports_8h_aeb5e7a4ee478d82961c915a2fe683a33}{APPLIBRARY\_API}} \mbox{\hyperlink{class_application_1_1_block}{Block}} : \textcolor{keyword}{public} \mbox{\hyperlink{class_application_1_1_feature}{Application::Feature}}, \textcolor{keyword}{public} \mbox{\hyperlink{class_application_1_1_i_block}{IBlock}}}
+\DoxyCodeLine{26     \{}
+\DoxyCodeLine{27         \textcolor{keyword}{public}:}
+\DoxyCodeLine{28             \mbox{\hyperlink{class_application_1_1_block_ac79237b28535b8163884e4655b1cfb5d}{Block}}() = \textcolor{keyword}{delete};}
+\DoxyCodeLine{29             \mbox{\hyperlink{class_application_1_1_block_ae26465a18c1c4a034571b645541dd5e3}{Block}}(\textcolor{keywordtype}{int} guid) : \mbox{\hyperlink{class_application_1_1_i_block}{IBlock}}(guid)}
+\DoxyCodeLine{30             \{}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32             \}}
+\DoxyCodeLine{33             std::string \mbox{\hyperlink{class_application_1_1_block_abbb355a1fb0a31a8347d2ac315c62be4}{GetVersion}}()\textcolor{keyword}{ override}}
+\DoxyCodeLine{34 \textcolor{keyword}{            }\{}
+\DoxyCodeLine{35                 \textcolor{keywordflow}{return} \textcolor{stringliteral}{"{}1"{}};}
+\DoxyCodeLine{36             \}}
+\DoxyCodeLine{37     \};}
+\DoxyCodeLine{38 \}}
+\DoxyCodeLine{39 }
+
+\end{DoxyCode}
