@@ -108,10 +108,15 @@ AutomationAPI::FeatureCollection* AutomationAPI::Part::Features()
 	return m_partImpl->Features();
 }
 
-AutomationAPI::BlockBuilder* AutomationAPI::Part::CreateBlockBuilder(AutomationAPI::Block* block)
-{
-	Application::BlockBuilder* blockBuilder =
-		Journaling_Part_CreateBlockBuilder(nullptr, nullptr);
+AutomationAPI::PyramidBuilder* AutomationAPI::Part::CreatePyramidBuilder(AutomationAPI::Pyramid* pyramid)
+{	
+	// Mode 1 to create a pyramid (input part and pyramid)
+	Application::PyramidBuilder* pyramidBuilder =
+		Journaling_Part_CreatePyramidBuilder(nullptr, nullptr);
+	
+	// Mode 2 to create a pyramid (input part only)
+	Application::PyramidBuilder* pyramidBuilder2 =
+		Journaling_Part_CreatePyramidBuilderPartOnly(nullptr);
 
 	return nullptr;
 

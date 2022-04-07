@@ -21,7 +21,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -92,6 +92,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AutomationAPI_PyramidBuilder.h" />
     <ClInclude Include="AutomationBindingExports.h" />
     <ClInclude Include="AutomationAPI_Wire.h" />
     <ClInclude Include="AutomationAPI_Block.h" />
@@ -116,6 +117,7 @@
     <ClCompile Include="FeatureCollection.cpp" />
     <ClCompile Include="IBuilder.cpp" />
     <ClCompile Include="Part.cpp" />
+    <ClCompile Include="PyramidBuilder.cpp" />
     <ClCompile Include="RoutingCollection.cpp" />
     <ClCompile Include="Session.cpp" />
     <ClCompile Include="Wire.cpp" />

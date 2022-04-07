@@ -22,7 +22,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -91,11 +91,13 @@
     <ClInclude Include="FeatureOpsUIExports.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MakeWidgetFeature.h" />
+    <ClInclude Include="PyramidBuilderUI.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BlockBuilderUI.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="MakeWidgetFeature.cpp" />
+    <ClCompile Include="PyramidBuilderUI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppLibrary\AppLibrary.vcxproj">
