@@ -108,10 +108,6 @@ AutomationAPI::FeatureCollection* AutomationAPI::Part::Features()
 	return m_partImpl->Features();
 }
 
-/*
-* creates a Pyramid builder
-* @param pyramid
-*/
 AutomationAPI::PyramidBuilder* AutomationAPI::Part::CreatePyramidBuilder(AutomationAPI::Pyramid* pyramid)
 {
 	// Mode 1 to create a pyramid (input part and pyramid)

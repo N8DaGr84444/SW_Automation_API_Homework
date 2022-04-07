@@ -52,6 +52,10 @@ namespace AutomationAPI
 			*/
 			static Part* CreatePart(int guid);
 
+			/*
+			* creates a Pyramid builder
+			* @param Pyramid
+			*/
 			PyramidBuilder* CreatePyramidBuilder(Pyramid* pyramid);
 
 			virtual ~Part();
