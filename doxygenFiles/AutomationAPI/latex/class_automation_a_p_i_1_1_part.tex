@@ -1,0 +1,111 @@
+\hypertarget{class_automation_a_p_i_1_1_part}{}\doxysection{Automation\+API\+::Part Class Reference}
+\label{class_automation_a_p_i_1_1_part}\index{AutomationAPI::Part@{AutomationAPI::Part}}
+
+
+Represents a part file in our sample CAD application.  
+
+
+
+
+{\ttfamily \#include $<$Automation\+API\+\_\+\+Part.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_automation_a_p_i_1_1_part_a3c3ecd459c51189b79639eae97923216}{Save}} ()
+\begin{DoxyCompactList}\small\item\em Saves the \mbox{\hyperlink{class_automation_a_p_i_1_1_part}{Part}} File.\end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_automation_a_p_i_1_1_part_ae2ab1e4d7a2054cc6b2d0dfc1f3f5773}{Make\+Widget\+Feature}} (bool option1, int values)
+\begin{DoxyCompactList}\small\item\em Makes a Widget Feature\end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_automation_a_p_i_1_1_feature_collection}{Feature\+Collection}} $\ast$ \mbox{\hyperlink{class_automation_a_p_i_1_1_part_a9f8f1e227e4b1387dae8f93effb06800}{Features}} ()
+\item 
+\mbox{\hyperlink{class_automation_a_p_i_1_1_routing_collection}{Routing\+Collection}} $\ast$ \mbox{\hyperlink{class_automation_a_p_i_1_1_part_a66c619d9137731f9b2fc585a08803f0c}{Routing}} ()
+\item 
+\mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder}{Block\+Builder}} $\ast$ \mbox{\hyperlink{class_automation_a_p_i_1_1_part_a0fcf0a2026a3ac6592538eb7467e774e}{Create\+Block\+Builder}} (\mbox{\hyperlink{class_automation_a_p_i_1_1_block}{Block}} $\ast$block)
+\item 
+virtual \mbox{\hyperlink{class_automation_a_p_i_1_1_part_a887deee0c1ac97c4f5858263285fd177}{$\sim$\+Part}} ()
+\item 
+\mbox{\hyperlink{class_automation_a_p_i_1_1_part_ab730e5303e704b803e2d5205d8dbb43b}{Part}} ()=delete
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_automation_a_p_i_1_1_part}{Part}} $\ast$ \mbox{\hyperlink{class_automation_a_p_i_1_1_part_abd0196726443490268f9352ac0c128e1}{Create\+Part}} (int guid)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a part file in our sample CAD application. 
+
+An instance of this object can be obtained from the class \mbox{\hyperlink{class_automation_a_p_i_1_1_session}{Session}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_part_a887deee0c1ac97c4f5858263285fd177}\label{class_automation_a_p_i_1_1_part_a887deee0c1ac97c4f5858263285fd177}} 
+\index{AutomationAPI::Part@{AutomationAPI::Part}!````~Part@{$\sim$Part}}
+\index{````~Part@{$\sim$Part}!AutomationAPI::Part@{AutomationAPI::Part}}
+\doxysubsubsection{\texorpdfstring{$\sim$Part()}{~Part()}}
+{\footnotesize\ttfamily Automation\+API\+::\+Part\+::$\sim$\+Part (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_part_ab730e5303e704b803e2d5205d8dbb43b}\label{class_automation_a_p_i_1_1_part_ab730e5303e704b803e2d5205d8dbb43b}} 
+\index{AutomationAPI::Part@{AutomationAPI::Part}!Part@{Part}}
+\index{Part@{Part}!AutomationAPI::Part@{AutomationAPI::Part}}
+\doxysubsubsection{\texorpdfstring{Part()}{Part()}}
+{\footnotesize\ttfamily Automation\+API\+::\+Part\+::\+Part (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_part_a0fcf0a2026a3ac6592538eb7467e774e}\label{class_automation_a_p_i_1_1_part_a0fcf0a2026a3ac6592538eb7467e774e}} 
+\index{AutomationAPI::Part@{AutomationAPI::Part}!CreateBlockBuilder@{CreateBlockBuilder}}
+\index{CreateBlockBuilder@{CreateBlockBuilder}!AutomationAPI::Part@{AutomationAPI::Part}}
+\doxysubsubsection{\texorpdfstring{CreateBlockBuilder()}{CreateBlockBuilder()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder}{Automation\+API\+::\+Block\+Builder}} $\ast$ Automation\+API\+::\+Part\+::\+Create\+Block\+Builder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_automation_a_p_i_1_1_block}{Automation\+API\+::\+Block}} $\ast$}]{block }\end{DoxyParamCaption})}
+
+Create a block builder 
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_automation_a_p_i_1_1_block}{Block}}} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_part_abd0196726443490268f9352ac0c128e1}\label{class_automation_a_p_i_1_1_part_abd0196726443490268f9352ac0c128e1}} 
+\index{AutomationAPI::Part@{AutomationAPI::Part}!CreatePart@{CreatePart}}
+\index{CreatePart@{CreatePart}!AutomationAPI::Part@{AutomationAPI::Part}}
+\doxysubsubsection{\texorpdfstring{CreatePart()}{CreatePart()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_automation_a_p_i_1_1_part}{Automation\+API\+::\+Part}} $\ast$ Automation\+API\+::\+Part\+::\+Create\+Part (\begin{DoxyParamCaption}\item[{int}]{guid }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_part_a9f8f1e227e4b1387dae8f93effb06800}\label{class_automation_a_p_i_1_1_part_a9f8f1e227e4b1387dae8f93effb06800}} 
+\index{AutomationAPI::Part@{AutomationAPI::Part}!Features@{Features}}
+\index{Features@{Features}!AutomationAPI::Part@{AutomationAPI::Part}}
+\doxysubsubsection{\texorpdfstring{Features()}{Features()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_automation_a_p_i_1_1_feature_collection}{Automation\+API\+::\+Feature\+Collection}} $\ast$ Automation\+API\+::\+Part\+::\+Features (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the Feature collection for the part. \mbox{\Hypertarget{class_automation_a_p_i_1_1_part_ae2ab1e4d7a2054cc6b2d0dfc1f3f5773}\label{class_automation_a_p_i_1_1_part_ae2ab1e4d7a2054cc6b2d0dfc1f3f5773}} 
+\index{AutomationAPI::Part@{AutomationAPI::Part}!MakeWidgetFeature@{MakeWidgetFeature}}
+\index{MakeWidgetFeature@{MakeWidgetFeature}!AutomationAPI::Part@{AutomationAPI::Part}}
+\doxysubsubsection{\texorpdfstring{MakeWidgetFeature()}{MakeWidgetFeature()}}
+{\footnotesize\ttfamily void Automation\+API\+::\+Part\+::\+Make\+Widget\+Feature (\begin{DoxyParamCaption}\item[{bool}]{option1,  }\item[{int}]{values }\end{DoxyParamCaption})}
+
+
+
+Makes a Widget Feature
+
+Even More commetns and details blah blah blah \mbox{\Hypertarget{class_automation_a_p_i_1_1_part_a66c619d9137731f9b2fc585a08803f0c}\label{class_automation_a_p_i_1_1_part_a66c619d9137731f9b2fc585a08803f0c}} 
+\index{AutomationAPI::Part@{AutomationAPI::Part}!Routing@{Routing}}
+\index{Routing@{Routing}!AutomationAPI::Part@{AutomationAPI::Part}}
+\doxysubsubsection{\texorpdfstring{Routing()}{Routing()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_automation_a_p_i_1_1_routing_collection}{Automation\+API\+::\+Routing\+Collection}} $\ast$ Automation\+API\+::\+Part\+::\+Routing (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the Routing collection for the part. \mbox{\Hypertarget{class_automation_a_p_i_1_1_part_a3c3ecd459c51189b79639eae97923216}\label{class_automation_a_p_i_1_1_part_a3c3ecd459c51189b79639eae97923216}} 
+\index{AutomationAPI::Part@{AutomationAPI::Part}!Save@{Save}}
+\index{Save@{Save}!AutomationAPI::Part@{AutomationAPI::Part}}
+\doxysubsubsection{\texorpdfstring{Save()}{Save()}}
+{\footnotesize\ttfamily void Automation\+API\+::\+Part\+::\+Save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Saves the \mbox{\hyperlink{class_automation_a_p_i_1_1_part}{Part}} File.
+
+More commetns and details blah blah blah 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Automation\+Binding/\mbox{\hyperlink{_automation_a_p_i___part_8h}{Automation\+API\+\_\+\+Part.\+h}}\item 
+Automation\+Binding/\mbox{\hyperlink{_part_8cpp}{Part.\+cpp}}\end{DoxyCompactItemize}

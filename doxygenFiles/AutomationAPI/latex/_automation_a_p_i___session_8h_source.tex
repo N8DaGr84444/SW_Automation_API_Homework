@@ -1,0 +1,37 @@
+\hypertarget{_automation_a_p_i___session_8h_source}{}\doxysection{Automation\+API\+\_\+\+Session.\+h}
+\label{_automation_a_p_i___session_8h_source}\index{AutomationBinding/AutomationAPI\_Session.h@{AutomationBinding/AutomationAPI\_Session.h}}
+\mbox{\hyperlink{_automation_a_p_i___session_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_automation_binding_exports_8h}{AutomationBindingExports.h}}"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_automation_a_p_i}{AutomationAPI}}}
+\DoxyCodeLine{8 \{}
+\DoxyCodeLine{9     \textcolor{keyword}{class }Part;}
+\DoxyCodeLine{13     \textcolor{keyword}{class }\mbox{\hyperlink{_automation_binding_exports_8h_a4b4ededcfdb4880bbe5170af32649741}{AUTOMATIONBINDING\_API}} \mbox{\hyperlink{class_automation_a_p_i_1_1_session}{Session}}}
+\DoxyCodeLine{14     \{}
+\DoxyCodeLine{15         public :}
+\DoxyCodeLine{21             \textcolor{keyword}{static} \mbox{\hyperlink{class_automation_a_p_i_1_1_session}{Session}}* GetSession();}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 }
+\DoxyCodeLine{30             \mbox{\hyperlink{class_automation_a_p_i_1_1_part}{Part}}* MakePart(std::string partFilePath);}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{37             \mbox{\hyperlink{class_automation_a_p_i_1_1_part}{Part}}* OpenPart(std::string partFilePath);}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39             \textcolor{keyword}{virtual} \mbox{\hyperlink{class_automation_a_p_i_1_1_session}{\string~Session}}();}
+\DoxyCodeLine{40             \mbox{\hyperlink{class_automation_a_p_i_1_1_session_a79a841a7646b534bcdef0dfa28cee64d}{Session}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_automation_a_p_i_1_1_session}{Session}}\&) = \textcolor{keyword}{delete};}
+\DoxyCodeLine{41             \mbox{\hyperlink{class_automation_a_p_i_1_1_session}{Session}}\& \mbox{\hyperlink{class_automation_a_p_i_1_1_session_ae20f1b7e68d2abcbfc9ab4815a81a354}{operator=}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_automation_a_p_i_1_1_session}{Session}}\&) = \textcolor{keyword}{delete};}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43         \textcolor{keyword}{private}:}
+\DoxyCodeLine{44             \mbox{\hyperlink{class_automation_a_p_i_1_1_session}{Session}}() = \textcolor{keywordflow}{default};}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46     \};}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48 \}}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50 }
+
+\end{DoxyCode}

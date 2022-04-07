@@ -1,0 +1,185 @@
+\hypertarget{class_automation_a_p_i_1_1_block_builder}{}\doxysection{Automation\+API\+::Block\+Builder Class Reference}
+\label{class_automation_a_p_i_1_1_block_builder}\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+
+
+\mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder}{Block\+Builder}} comment  
+
+
+
+
+{\ttfamily \#include $<$Automation\+API\+\_\+\+Block\+Builder.\+h$>$}
+
+Inheritance diagram for Automation\+API\+::Block\+Builder\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_automation_a_p_i_1_1_block_builder}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cb}{Block\+Builder\+Types}} \{ \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cbac67cd8659ab57ae2013c95ff2077c859}{Types\+Origin\+And\+Edge\+Lengths}}
+, \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cba984894108fda4d41eb325f6454eb6c24}{Types\+Two\+Points\+And\+Height}}
+, \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cbadc7f70cb42dd95c2531f1bc22f290353}{Types\+Diagonal\+Points}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_aa113c53a1c653e4fc9e9991cc3ea6906}{Set\+Type}} (\mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cb}{Block\+Builder\+Types}} type)
+\item 
+\mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cb}{Block\+Builder\+Types}} \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a9ca4f951fce14102d600b3feb27a4d10}{Get\+Type}} ()
+\item 
+void \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a63b7d6a47b53a786df80682107ec6405}{Set\+Height}} (int h)
+\item 
+int \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_aec59a96dca242249749a326823df72ea}{Get\+Height}} ()
+\item 
+void \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a27d9025d24f7783ba416f01b97eeebe9}{Set\+Width}} (int w)
+\item 
+int \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a259964f42afba22fecba6019d123d296}{Get\+Width}} ()
+\item 
+void \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_ac56539e9d1aeb7a26dc688d6d9408985}{Set\+Depth}} (int d)
+\item 
+int \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_afd6be33136547fcc18288f18c66d0670}{Get\+Depth}} ()
+\item 
+void \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a09b4e7ccc4563af4aae5f1b7f277ca16}{Set\+Origin}} (int x, int y, int z)
+\item 
+void \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a618256ed4c4d41eeef6755439d2a62da}{Get\+Origin}} (int \&x, int \&y, int \&z)
+\item 
+\mbox{\hyperlink{class_automation_a_p_i_1_1_c_a_d_object}{CADObject}} $\ast$ \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_aa26db68ed79e3d57d1b00e1383ad5e9e}{Commit}} () override
+\item 
+virtual \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a0d94526d6051057f4461e11fdef0f8bf}{$\sim$\+Block\+Builder}} ()
+\item 
+\mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_af5c2999295c0775be3e4782c3e2d055e}{Block\+Builder}} ()=delete
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder}{Block\+Builder}} $\ast$ \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_ac6f44eabbcd505e98fea0025d6b68519}{Create\+Block\+Builder}} (int guid)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder}{Block\+Builder}} comment 
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cb}\label{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cb}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!BlockBuilderTypes@{BlockBuilderTypes}}
+\index{BlockBuilderTypes@{BlockBuilderTypes}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{BlockBuilderTypes}{BlockBuilderTypes}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cb}{Automation\+API\+::\+Block\+Builder\+::\+Block\+Builder\+Types}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TypesOriginAndEdgeLengths@{TypesOriginAndEdgeLengths}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!TypesOriginAndEdgeLengths@{TypesOriginAndEdgeLengths}}}\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cbac67cd8659ab57ae2013c95ff2077c859}\label{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cbac67cd8659ab57ae2013c95ff2077c859}} 
+Types\+Origin\+And\+Edge\+Lengths&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TypesTwoPointsAndHeight@{TypesTwoPointsAndHeight}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!TypesTwoPointsAndHeight@{TypesTwoPointsAndHeight}}}\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cba984894108fda4d41eb325f6454eb6c24}\label{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cba984894108fda4d41eb325f6454eb6c24}} 
+Types\+Two\+Points\+And\+Height&Represents the block created by providing Originand Edge Lengths. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TypesDiagonalPoints@{TypesDiagonalPoints}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!TypesDiagonalPoints@{TypesDiagonalPoints}}}\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cbadc7f70cb42dd95c2531f1bc22f290353}\label{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cbadc7f70cb42dd95c2531f1bc22f290353}} 
+Types\+Diagonal\+Points&Represents the block created by providing Two Pointsand Height. Represents the block created by providing Diagonal Points. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_a0d94526d6051057f4461e11fdef0f8bf}\label{class_automation_a_p_i_1_1_block_builder_a0d94526d6051057f4461e11fdef0f8bf}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!````~BlockBuilder@{$\sim$BlockBuilder}}
+\index{````~BlockBuilder@{$\sim$BlockBuilder}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{$\sim$BlockBuilder()}{~BlockBuilder()}}
+{\footnotesize\ttfamily Automation\+API\+::\+Block\+Builder\+::$\sim$\+Block\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_af5c2999295c0775be3e4782c3e2d055e}\label{class_automation_a_p_i_1_1_block_builder_af5c2999295c0775be3e4782c3e2d055e}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!BlockBuilder@{BlockBuilder}}
+\index{BlockBuilder@{BlockBuilder}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{BlockBuilder()}{BlockBuilder()}}
+{\footnotesize\ttfamily Automation\+API\+::\+Block\+Builder\+::\+Block\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_aa26db68ed79e3d57d1b00e1383ad5e9e}\label{class_automation_a_p_i_1_1_block_builder_aa26db68ed79e3d57d1b00e1383ad5e9e}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!Commit@{Commit}}
+\index{Commit@{Commit}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{Commit()}{Commit()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_automation_a_p_i_1_1_c_a_d_object}{Automation\+API\+::\+CADObject}} $\ast$ Automation\+API\+::\+Block\+Builder\+::\+Commit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Commit the builder 
+
+Implements \mbox{\hyperlink{class_automation_a_p_i_1_1_i_builder}{Automation\+API\+::\+IBuilder}}.
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_ac6f44eabbcd505e98fea0025d6b68519}\label{class_automation_a_p_i_1_1_block_builder_ac6f44eabbcd505e98fea0025d6b68519}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!CreateBlockBuilder@{CreateBlockBuilder}}
+\index{CreateBlockBuilder@{CreateBlockBuilder}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{CreateBlockBuilder()}{CreateBlockBuilder()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder}{Automation\+API\+::\+Block\+Builder}} $\ast$ Automation\+API\+::\+Block\+Builder\+::\+Create\+Block\+Builder (\begin{DoxyParamCaption}\item[{int}]{guid }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_afd6be33136547fcc18288f18c66d0670}\label{class_automation_a_p_i_1_1_block_builder_afd6be33136547fcc18288f18c66d0670}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!GetDepth@{GetDepth}}
+\index{GetDepth@{GetDepth}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{GetDepth()}{GetDepth()}}
+{\footnotesize\ttfamily int Automation\+API\+::\+Block\+Builder\+::\+Get\+Depth (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_aec59a96dca242249749a326823df72ea}\label{class_automation_a_p_i_1_1_block_builder_aec59a96dca242249749a326823df72ea}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!GetHeight@{GetHeight}}
+\index{GetHeight@{GetHeight}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{GetHeight()}{GetHeight()}}
+{\footnotesize\ttfamily int Automation\+API\+::\+Block\+Builder\+::\+Get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_a618256ed4c4d41eeef6755439d2a62da}\label{class_automation_a_p_i_1_1_block_builder_a618256ed4c4d41eeef6755439d2a62da}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!GetOrigin@{GetOrigin}}
+\index{GetOrigin@{GetOrigin}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{GetOrigin()}{GetOrigin()}}
+{\footnotesize\ttfamily void Automation\+API\+::\+Block\+Builder\+::\+Get\+Origin (\begin{DoxyParamCaption}\item[{int \&}]{x,  }\item[{int \&}]{y,  }\item[{int \&}]{z }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_a9ca4f951fce14102d600b3feb27a4d10}\label{class_automation_a_p_i_1_1_block_builder_a9ca4f951fce14102d600b3feb27a4d10}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!GetType@{GetType}}
+\index{GetType@{GetType}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{GetType()}{GetType()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cb}{Automation\+API\+::\+Block\+Builder\+::\+Block\+Builder\+Types}} Automation\+API\+::\+Block\+Builder\+::\+Get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_a259964f42afba22fecba6019d123d296}\label{class_automation_a_p_i_1_1_block_builder_a259964f42afba22fecba6019d123d296}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!GetWidth@{GetWidth}}
+\index{GetWidth@{GetWidth}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{GetWidth()}{GetWidth()}}
+{\footnotesize\ttfamily int Automation\+API\+::\+Block\+Builder\+::\+Get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_ac56539e9d1aeb7a26dc688d6d9408985}\label{class_automation_a_p_i_1_1_block_builder_ac56539e9d1aeb7a26dc688d6d9408985}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!SetDepth@{SetDepth}}
+\index{SetDepth@{SetDepth}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{SetDepth()}{SetDepth()}}
+{\footnotesize\ttfamily void Automation\+API\+::\+Block\+Builder\+::\+Set\+Depth (\begin{DoxyParamCaption}\item[{int}]{d }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_a63b7d6a47b53a786df80682107ec6405}\label{class_automation_a_p_i_1_1_block_builder_a63b7d6a47b53a786df80682107ec6405}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!SetHeight@{SetHeight}}
+\index{SetHeight@{SetHeight}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{SetHeight()}{SetHeight()}}
+{\footnotesize\ttfamily void Automation\+API\+::\+Block\+Builder\+::\+Set\+Height (\begin{DoxyParamCaption}\item[{int}]{h }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_a09b4e7ccc4563af4aae5f1b7f277ca16}\label{class_automation_a_p_i_1_1_block_builder_a09b4e7ccc4563af4aae5f1b7f277ca16}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!SetOrigin@{SetOrigin}}
+\index{SetOrigin@{SetOrigin}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{SetOrigin()}{SetOrigin()}}
+{\footnotesize\ttfamily void Automation\+API\+::\+Block\+Builder\+::\+Set\+Origin (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{z }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_aa113c53a1c653e4fc9e9991cc3ea6906}\label{class_automation_a_p_i_1_1_block_builder_aa113c53a1c653e4fc9e9991cc3ea6906}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!SetType@{SetType}}
+\index{SetType@{SetType}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{SetType()}{SetType()}}
+{\footnotesize\ttfamily void Automation\+API\+::\+Block\+Builder\+::\+Set\+Type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_automation_a_p_i_1_1_block_builder_a9095bc936c5de1706283d36dcd0ed9cb}{Block\+Builder\+Types}}}]{type }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_automation_a_p_i_1_1_block_builder_a27d9025d24f7783ba416f01b97eeebe9}\label{class_automation_a_p_i_1_1_block_builder_a27d9025d24f7783ba416f01b97eeebe9}} 
+\index{AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}!SetWidth@{SetWidth}}
+\index{SetWidth@{SetWidth}!AutomationAPI::BlockBuilder@{AutomationAPI::BlockBuilder}}
+\doxysubsubsection{\texorpdfstring{SetWidth()}{SetWidth()}}
+{\footnotesize\ttfamily void Automation\+API\+::\+Block\+Builder\+::\+Set\+Width (\begin{DoxyParamCaption}\item[{int}]{w }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Automation\+Binding/\mbox{\hyperlink{_automation_a_p_i___block_builder_8h}{Automation\+API\+\_\+\+Block\+Builder.\+h}}\item 
+Automation\+Binding/\mbox{\hyperlink{_block_builder_8cpp}{Block\+Builder.\+cpp}}\end{DoxyCompactItemize}

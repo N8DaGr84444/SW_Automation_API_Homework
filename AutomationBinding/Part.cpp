@@ -108,6 +108,9 @@ AutomationAPI::FeatureCollection* AutomationAPI::Part::Features()
 	return m_partImpl->Features();
 }
 
+/*
+* creates a block builder
+*/
 AutomationAPI::BlockBuilder* AutomationAPI::Part::CreateBlockBuilder(AutomationAPI::Block* block)
 {
 	Application::BlockBuilder* blockBuilder =

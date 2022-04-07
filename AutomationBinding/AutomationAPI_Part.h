@@ -40,13 +40,17 @@ namespace AutomationAPI
 			* Returns the Routing collection for the part.
 			*/
 			RoutingCollection* Routing();
+
+			/**
+			* Create a block builder
+			* @param Block
+			*/
+			BlockBuilder* CreateBlockBuilder(Block* block);
+
 			/*
 			* Internal Usage only.
 			*/
 			static Part* CreatePart(int guid);
-
-			BlockBuilder* CreateBlockBuilder(Block* block);
-
 
 			virtual ~Part();
 			Part() = delete;
