@@ -52,12 +52,8 @@ namespace AutomationAPI
 			*/
 			static Part* CreatePart(int guid);
 
-<<<<<<< HEAD
-=======
 			PyramidBuilder* CreatePyramidBuilder(Pyramid* pyramid);
 
-
->>>>>>> main
 			virtual ~Part();
 			Part() = delete;
 
