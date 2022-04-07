@@ -1,0 +1,51 @@
+\hypertarget{_automation_a_p_i___pyramid_builder_8h_source}{}\doxysection{Automation\+API\+\_\+\+Pyramid\+Builder.\+h}
+\mbox{\hyperlink{_automation_a_p_i___pyramid_builder_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_automation_binding_exports_8h}{AutomationBindingExports.h}}"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_automation_a_p_i___i_builder_8h}{AutomationAPI\_IBuilder.h}}"{}}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_automation_a_p_i}{AutomationAPI}}}
+\DoxyCodeLine{6 \{}
+\DoxyCodeLine{7     \textcolor{keyword}{class }CADObject;}
+\DoxyCodeLine{8     \textcolor{keyword}{class }PyramidBuilder;}
+\DoxyCodeLine{9     \textcolor{keyword}{class }PyramidBuilderImpl;}
+\DoxyCodeLine{13     \textcolor{keyword}{class }\mbox{\hyperlink{_automation_binding_exports_8h_a4b4ededcfdb4880bbe5170af32649741}{AUTOMATIONBINDING\_API}} \mbox{\hyperlink{class_automation_a_p_i_1_1_pyramid_builder}{PyramidBuilder}} : \textcolor{keyword}{public} \mbox{\hyperlink{class_automation_a_p_i_1_1_i_builder}{IBuilder}}}
+\DoxyCodeLine{14     \{}
+\DoxyCodeLine{15     \textcolor{keyword}{public}:}
+\DoxyCodeLine{16         \textcolor{keyword}{enum} \mbox{\hyperlink{class_automation_a_p_i_1_1_pyramid_builder_ad5ae2ccf0856a1170d7b12e5f03d7996}{PyramidBuilderTypes}}}
+\DoxyCodeLine{17         \{}
+\DoxyCodeLine{18             \mbox{\hyperlink{class_automation_a_p_i_1_1_pyramid_builder_ad5ae2ccf0856a1170d7b12e5f03d7996ad9570e0bfadf6308bb79010f3f600025}{TypesOriginAndEdgeLengths}}, }
+\DoxyCodeLine{19             \mbox{\hyperlink{class_automation_a_p_i_1_1_pyramid_builder_ad5ae2ccf0856a1170d7b12e5f03d7996a81caeb703faac2401d844612d94e1693}{TypesTwoPointsAndHeight}}, }
+\DoxyCodeLine{20             TypesDiagonalPoints }
+\DoxyCodeLine{21         \};}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23         \textcolor{keywordtype}{void} SetType(PyramidBuilderTypes type);}
+\DoxyCodeLine{24         PyramidBuilderTypes GetType();}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26         \textcolor{keywordtype}{void} SetHeight(\textcolor{keywordtype}{int} h);}
+\DoxyCodeLine{27         \textcolor{keywordtype}{int} GetHeight();}
+\DoxyCodeLine{28         \textcolor{keywordtype}{void} SetBaseLength(\textcolor{keywordtype}{int} b);}
+\DoxyCodeLine{29         \textcolor{keywordtype}{int} GetBaseLength();}
+\DoxyCodeLine{30         \textcolor{keywordtype}{void} SetOrigin(\textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, \textcolor{keywordtype}{int} z);}
+\DoxyCodeLine{31         \textcolor{keywordtype}{void} GetOrigin(\textcolor{keywordtype}{int}\& x, \textcolor{keywordtype}{int}\& y, \textcolor{keywordtype}{int}\& z);}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34         \mbox{\hyperlink{class_automation_a_p_i_1_1_c_a_d_object}{CADObject}}* Commit() \textcolor{keyword}{override};}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36         \textcolor{comment}{/*}}
+\DoxyCodeLine{37 \textcolor{comment}{        * Internal Usage only.}}
+\DoxyCodeLine{38 \textcolor{comment}{        */}}
+\DoxyCodeLine{39         \textcolor{keyword}{static} \mbox{\hyperlink{class_automation_a_p_i_1_1_pyramid_builder}{PyramidBuilder}}* CreatePyramidBuilder(\textcolor{keywordtype}{int} guid);}
+\DoxyCodeLine{40         \textcolor{keyword}{virtual} \mbox{\hyperlink{class_automation_a_p_i_1_1_pyramid_builder}{\string~PyramidBuilder}}();}
+\DoxyCodeLine{41         \mbox{\hyperlink{class_automation_a_p_i_1_1_pyramid_builder_a79f33dc2c70379c017217f23ee76cfb7}{PyramidBuilder}}() = \textcolor{keyword}{delete};}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43     \textcolor{keyword}{private}:}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45         \mbox{\hyperlink{class_automation_a_p_i_1_1_pyramid_builder}{PyramidBuilder}}(\textcolor{keywordtype}{int} guid);}
+\DoxyCodeLine{46         \mbox{\hyperlink{class_automation_a_p_i_1_1_pyramid_builder_impl}{PyramidBuilderImpl}}* m\_pyramidBuilderImpl;}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48     \};}
+\DoxyCodeLine{49 \}}
+
+\end{DoxyCode}
